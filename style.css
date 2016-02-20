@@ -1,0 +1,41 @@
+html,
+body {
+  background: #DBD4B7 url(seamless_paper_texture.png) 0 0 repeat scroll;
+  color: #722B13;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header,
+footer {
+  background-color: #EDDE05;
+}
+header {
+
+}
+header h1 {
+  margin: 0;
+  padding: 4em 1em 1em;
+}
+header img {
+  width: 100%;
+}
+.container {
+  margin: 0 auto;
+  max-width: 40em;
+  padding: 1em 0;
+}
+.centered {
+  text-align: center;
+}
+section { margin-bottom: 1em; }
+h2, h3 { font-family: 'Bree Serif', serif; }
+dt { font-family: 'Courgette', cursive; }
+.price {
+  color: #BF4720;
+  font-family: 'Bree Serif', serif;
+  text-shadow: 1px 1px 1px #724536;
+}
+footer {
+  padding: 1em;
+}

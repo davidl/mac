@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Marie's African Cuisine - Greensboro, NC</title>
 <meta name="description" content="Marie's African Cuisine serves African food in Greensboro, NC">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Courgette|Droid+Serif:400,700" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -31,16 +32,17 @@
 </header>
 <main class="container">
   <section id="address" class="centered" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-    <b itemprop="streetAddress">4631 West Market St.</b>
+    <b itemprop="streetAddress">4631 West Market St.</b><br>
     <b itemprop="addressLocality">Greensboro</b>,
     <b itemprop="addressRegion">NC</b> <b itemprop="postalCode">27407</b>
   </section>
-  <section id="contact" class="centered">
-    <b itemprop="telephone">(336) 541-2498</b>
-    <b itemprop="telephone">(336) 541-8658</b>
-  </section>
   <section id="hours" class="centered">
     <meta itemprop="openingHours" content="Mo-Su 11:00-21:00">Open 7 Days 11am to 9:00pm
+  </section>
+  <section id="contact" class="centered">
+    Phone<br>
+    <b itemprop="telephone">(336) 541-2498</b> or
+    <b itemprop="telephone">(336) 541-8658</b>
   </section>
   <section id="about">
     <h2><span lang="fr">Bienvenue</span> / Welcome!</h2>
@@ -49,7 +51,7 @@
   <section id="menu">
     <h2>Menu (<a target="_blank" itemprop="menu" href="Maries-African-Cuisine-menu.pdf">PDF</a>)</h2>
     <h3><span lang="fr">Accompagnants</span> / Side Orders</h3>
-    <dl>
+    <dl class="sides">
       <dt>White Rice</dt>
       <dt><span lang="fr">Couscous</span> - Semolina</dt>
       <dt><span lang="fr">Vermicelle</span> - Vermicelli</dt>
@@ -57,7 +59,7 @@
       <dt><span lang="fr">Attiéké</span> - Cassava Grains</dt>
       <dt>Rice and Beans</dt>
     </dl>
-    <dl>
+    <dl class="sides">
       <dt>Fufu</dt>
       <dt>Green Beans</dt>
       <dt>Kaffa - Maize Flour</dt>
@@ -80,7 +82,7 @@
       <dt lang="fr">Sauce de Queue de Bœuf</dt><dd>Oxtail stew. Served with white rice or rice and beans. <span class="price">$10.99</span></dd>
       <dt lang="fr">Tchiebu Djen</dt><dd>Jollof rice with vegetables and fish. <span class="price">$11.99</span></dd>
       <dt lang="fr">Ragou de Spaguetti avec Viande de Dindon</dt><dd>Spaguetti Ragu with turkey. <span class="price">$7.99</span></dd>
-      <dt lang="fr">Dambou</dt><dd>Rice couscous with collard greens. <span class="price">$8.99</span> Can be served with blended chicken for <span class="price">$4.99</span></dd>
+      <dt lang="fr">Dambou</dt><dd>Rice couscous with collard greens. <span class="price">$8.99</span> Can be served with blended chicken for $4.99.</dd>
       <dt lang="fr">Steak Sauté avec Petit Pois</dt><dd>Steak sautéed with peas. Served with couscous or French bread. <span class="price">$9.99</span></dd>
       <dt lang="fr">Poulet Broyé</dt><dd>Blended chicken with peanuts, onion and other spices. <span class="price">$7.99</span></dd>
       <dt lang="fr">Brochettes</dt><dd>Beef Kabobs. Served with French fries or plantains. <span class="price">$11.99</span></dd>
@@ -99,6 +101,6 @@
     </dl>
   </section>
 </main>
-<footer class="centered">Copyright 2016 <a itemprop="url" href="//mariesafricancuisine.com">Marie's African Cuisine</a></footer>
+<footer class="centered">© 2016 <a itemprop="url" href="//mariesafricancuisine.com">Marie's African Cuisine</a></footer>
 </body>
 </html>

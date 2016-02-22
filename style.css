@@ -35,7 +35,7 @@ main {
 .centered { text-align: center; }
 section { margin-bottom: 1em; }
 a { color: #047734; }
-dl + dl { margin-top: -0.8em; }
+dl + dl.sides { margin-top: -0.8em; }
 dt {
   border-bottom: 1px solid #BEAF83;
   color: #a62c37;
@@ -79,7 +79,8 @@ footer a {
     display: table;
     content: " ";
   }
-  dl + dl {
+  dl + dl,
+  dl + dl.sides {
     margin-top: 1em;
     margin-right: 0;
   }

@@ -34,6 +34,7 @@ main {
   padding: 1em;
 }
 .centered { text-align: center; }
+.show-lt-768-inline { display: inline; }
 section { margin-bottom: 1em; }
 a { color: #047734; }
 dl + dl.sides { margin-top: -0.8em; }
@@ -70,6 +71,7 @@ footer a {
 }
 
 @media screen and (min-width: 48em) { /* 768px */
+  .show-lt-768-inline { display: none; }
   main { padding: 2em; }
   dl {
     float: left;
